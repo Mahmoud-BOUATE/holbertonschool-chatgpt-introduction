@@ -1,5 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import sys
 
-for arg in sys.argv:
+# Parcours tous les arguments sauf le nom du script
+for arg in sys.argv[1:]:
     print(arg)
